@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity1">
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expert opinion on Equated Monthly Installment, \n on the wall"
+        android:layout_below="@id/txtHeader"
+        android:textAlignment="center"
+        android:textColor="#455a64"/>
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The wall"
+        android:layout_below="@id/imgTime"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:paddingBottom="12sp"
+        android:textColor="#263238"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgTime"
+        android:layout_width="2000dp"
+        android:layout_height="300dp"
+        android:src="@drawable/info"
+        android:layout_marginTop="115dp"/>
+
+    <Button
+        android:id="@+id/btnNext23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        android:text="next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="35dp" />
+
+    <Button
+        android:id="@+id/btnSkip23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        android:text="skip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="35dp"/>
+
+</RelativeLayout>

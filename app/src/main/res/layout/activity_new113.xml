@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity113">
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/txtT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is EMI?"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#263238"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. Equated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. In the most common types of loans—such as real estate mortgages, auto loans, and student loans—the borrower makes fixed periodic payments to the lender over the course of several years with the goal of retiring the loan."
+                android:layout_below="@id/txtT1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:textColor="#455a64"/>
+
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/txtT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benefits of EMI"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#263238"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. freedom to buy: an emi option allows you to buy expensive items right off the shelf, even though you might not have the funds to pay for it at that very moment. for instance, if you're a salaried person, buying your dream home or car is easier with an emi option with your loan, as compared to a lump sum repayment.
+                \n \n
+2. affordability: be it expensive household items, a vehicle, gifts or even a house, emis can help you buy anything and everything. your lender divides the total amount in monthly instalments, and you pay it off in manageable chunks.
+\n \n
+3. easy on the wallet: since the monthly payment is already known and distributed over the loan tenure, the emi option will not burn a hole in your pocket, therefore allowing you to make other investments and spend elsewhere too.
+\n \n
+4. plan payments with emi calculators: emi calculators available online will allow you to calculate your monthly outflow depending on the principal amount, interest rate charged, and time horizon. planning for other expenses and investments out of your income can be done easily.
+\n \n
+5. leverage flexible emi options: several banks and financial institutions now offer flexible emi schemes. here, the lender allows you to decide on the amount per emi or the payment duration, depending on your financial standing and income.
+\n \n
+6. no mediators: the emi is directly paid to the lender, and there is no involvement of multiple parties handling your payments."
+                android:layout_below="@id/txtT2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:textColor="#455a64"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/txtT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The disadvantages"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#263238"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. longer debts: emis are designed to significantly extend the loan period, leading to you carrying the debt for longer.
+\n \n
+2. higher repayments: say you want to buy a smartphone today at rs. 55,000. if you opt for emis, you will end up paying more than the cost at the end of your repayment period. the excess amount reflects the interest charged by the institution for the use of their funds. to avoid paying higher than your upfront purchase cost, you might want to look for a zero-interest emi scheme.
+\n \n
+3. no prepayment: even if you have the ready cash to pay off the loan before the tenure ends, most emi schemes will charge you a prepayment penalty ranging between 2-3% of the principal amount.
+\n \n
+4. charges on skipping emis: for a customer, missing the emi or defaulting on payments may have significant implications. in case of home loans or car loans, your lender is legally entitled to take over the mortgaged asset if you regularly default on payments.
+\n \n
+5. impact on creditworthiness: also, skipping emi payments will negatively impact your credit score.
+\n \n
+6. extra costs: apart from the interest cost, financial institutions might also charge a processing fee when you opt for an emi scheme."
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:textColor="#455a64"
+                android:layout_below="@id/txtT3"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+  </ScrollView>

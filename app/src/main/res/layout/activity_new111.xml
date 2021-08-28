@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity111">
+
+    <Button
+        android:id="@+id/btnSwitchEmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="emi calculation"
+        android:padding="35dp"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the wall"
+        android:padding="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/btnSwitchEmi"/>
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New features \n will be introduced later"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ex"
+        android:layout_below="@id/txtInfo"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

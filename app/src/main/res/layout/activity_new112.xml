@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity112">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI result:"
+        android:textColor="#455a64"
+        android:layout_alignLeft="@id/txtResult"
+        android:layout_marginTop="115dp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:textSize="36dp"
+        android:layout_alignLeft="@id/txtPri"
+        android:layout_alignRight="@id/etPrime"
+        android:textAlignment="textEnd"
+        android:textColor="#455a64" />
+
+    <TextView
+        android:id="@+id/txtPri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principal Amount:"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#455a64" />
+
+    <EditText
+        android:id="@+id/etPrime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="00"
+        android:layout_toRightOf="@id/txtPri"
+        android:layout_marginLeft="70dp"
+        android:layout_alignBaseline="@id/txtPri"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down Payment:"
+        android:layout_alignLeft="@id/txtPri"
+        android:layout_below="@id/txtPri"
+        android:layout_marginTop="40dp"
+        android:textColor="#455a64" />
+
+    <EditText
+        android:id="@+id/etDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="00"
+        android:layout_toRightOf="@id/txtDown"
+        android:layout_alignBaseline="@id/txtDown"
+        android:layout_alignLeft="@id/etPrime"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtInter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interest Rate:"
+        android:layout_alignLeft="@id/txtDown"
+        android:layout_below="@id/txtDown"
+        android:layout_marginTop="40dp"
+        android:textColor="#455a64" />
+
+    <EditText
+        android:id="@+id/etInter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="00"
+        android:layout_toRightOf="@id/txtInter"
+        android:layout_alignBaseline="@id/txtInter"
+        android:layout_alignLeft="@id/etPrime"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loan Term (in months):"
+        android:layout_alignLeft="@id/txtPri"
+        android:layout_below="@id/txtInter"
+        android:layout_marginTop="40dp"
+        android:textColor="#455a64" />
+
+    <EditText
+        android:id="@+id/etLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="00"
+        android:layout_toRightOf="@id/txtLoan"
+        android:layout_alignBaseline="@id/txtLoan"
+        android:layout_alignLeft="@id/etPrime"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnEMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate emi"
+        android:layout_below="@id/txtLoan"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>
